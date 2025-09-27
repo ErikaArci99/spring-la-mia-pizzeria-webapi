@@ -24,7 +24,7 @@ public class PizzaRestController {
         return service.findAll();
     }
 
-    // SHOW -> dettagli di una pizza
+    // SHOW -> dettagli di una pizza /
     @GetMapping("/{id}")
     public ResponseEntity<Pizza> show(@PathVariable Long id) {
         Optional<Pizza> pizza = service.findById(id);

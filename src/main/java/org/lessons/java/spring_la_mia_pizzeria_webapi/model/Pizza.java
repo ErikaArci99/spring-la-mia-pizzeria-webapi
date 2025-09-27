@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Positive;
 
-// entità che rappresenta una pizza
+// entità che rappresenta una pizza/
 @Entity
 @Table(name = "pizza")
 public class Pizza {

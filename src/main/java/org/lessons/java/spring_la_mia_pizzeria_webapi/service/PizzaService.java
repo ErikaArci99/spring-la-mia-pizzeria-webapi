@@ -15,7 +15,7 @@ public class PizzaService {
     @Autowired
     private PizzaRepository repository;
 
-    // restituisce tutte le pizze
+    // restituisce tutte le pizze/
     public List<Pizza> findAll() {
         return repository.findAll();
     }
